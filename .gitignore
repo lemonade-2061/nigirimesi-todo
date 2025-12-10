@@ -1,0 +1,21 @@
+#---------------------
+#1.Rust CLI Project
+#---------------------
+/todo_cli_android/target/
+/todo_cli_android/Cargo.lock
+
+#----------------------
+#2.Android Project
+#----------------------
+/Android/.gradle/
+/Android/build/
+/Android/app/build/
+/Android/.idea/
+/Android/*.iml
+/Android/app/*.iml
+
+#-----------------------
+#3.IDE Files & OS Files
+#-----------------------
+*.iml
+.DS_Store
