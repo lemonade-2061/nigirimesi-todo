@@ -1,0 +1,15 @@
+toml
+# ファイル名: gradle/libs.versions.toml
+
+[versions]
+# ... 他のバージョン定義
+# ▼▼▼ この1行を追加 ▼▼▼
+ksp = "2.3.0-1.0.25"  # あなたのKotlinバージョン(2.3.0)に合わせる
+
+[libraries]
+# ... 他のライブラリ定義
+
+[plugins]
+# ... 他のプラグイン定義
+# ▼▼▼ この1行を追加 ▼▼▼
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
