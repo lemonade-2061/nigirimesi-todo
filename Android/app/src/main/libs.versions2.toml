@@ -1,0 +1,13 @@
+toml
+[versions]
+# ...
+# ▼▼▼ この行は完全に削除します ▼▼▼
+# firebaseAuthKtx = "24.0.1" 
+
+[libraries]
+# ...
+# ▼▼▼ "firebase-auth-ktx" の定義を、以下のように修正します ▼▼▼
+# 1. エイリアスの末尾から "-ktx" を削除
+# 2. nameからも "-ktx" を削除
+# 3. "version.ref" を完全に削除（BOMに任せるため）
+
